@@ -1,0 +1,38 @@
+name: Pizza
+main: com.tildenprep.pizza.Pizza
+version: 0.0.5
+
+commands:
+   nick:
+      description: This cammand gives you a nickname.
+      usage: /<command> [nickname]
+      aliases: nickname
+      permission: <plugin name>.nick
+      permission-message: You don't have <permission>
+   test:
+         description: This cammand is used to test the plugin
+         usage: /<command>
+         permission: <plugin name>.test
+         permission-message: You don't have <permission>
+   nickother:
+         description: This cammand gives you a nickname.
+         usage: /<command> [player] [nickname]
+         aliases: nicknameother
+         permission: <plugin name>.nickother
+         permission-message: You don't have <permission>
+   setrank:
+            description: This command sets the rank of the specified player.
+            usage: /<command> [player] [Rank]
+            permission: <plugin name>.setrank
+            permission-message: You don't have <permission>
+   invsee:
+               description: This command opens up the specified players inventory.
+               usage: /<command> [target player]
+               aliases: inventorysee
+               permission: <plugin name>.invsee
+               permission-message: You don't have <permission>
+   kickviewer:
+                  description: This command kicks the specified player
+                  usage: /<command> [target player]
+                  permission: <plugin name>.kickviewer
+                  permission-message: You don't have <permission>
